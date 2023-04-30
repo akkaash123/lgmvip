@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+header {
+  background-color:#1F8A70 ;
+  border-radius: 20px;
+  position: absolute;
+  left: 570px;
+  top: 40px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(175, 168, 168, 0.377);
+}
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+body{
+  background-color: #041b24 ;
+}
+.App{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.calculator{
+  width: 100%;
+  max-width: 400px;
+  margin-top: 60px;
+  background-color: #4e8fbd;
+  border-radius: 22px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 22px;
+}
+.display{
+  padding: 16px;
+  text-align: right;
+  background-color: #2d2e30;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 300;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
+button{
+  appearance: none;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: #073b5e;
+  background-image: #0e486e;
+  background-image: -webkit-linear-gradient(top, rgb(36, 84, 189) 0%,#0e486e 100%); 
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+   font-family: 'Poppins';
+   font-weight: normal ;
+   
+}
+button:hover{
+  opacity: 2;
+  background-color: #0e486e;
+  background-position: -200%;
+  transition: background 300ms ease-in-out;
+}
+.arithmetic{
+  display: flex;
+}
+.arithmetic button{
+  flex: 1 1 0%;
+  font-weight: 700;
+}
+.digits{
+  display: flex;
+  flex-wrap: wrap;
+}
+.digits button{
+  flex: 1 1 33.333%;
+  max-width: 33.333%;
+  background-color:  #073b5e;
+}

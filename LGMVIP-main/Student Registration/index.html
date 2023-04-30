@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+	 <div class="header" >
+    <h2>Student Enrollment Form</h2>
+  </div>
+	<center>
+		<table id="main">
+			<thead>
+				<tr>
+					<th><p>Name: </p></th>
+					<td><input type="text" name="fname" id="fname" placeholder="Full name" required></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th><p>LinkedIn profile: </p></th>
+					<td><input type="text" name="lname" id="lname" placeholder="Profile url"></td>
+				</tr>
+				<tr>
+					<th><p>Email: </p></th>
+					<td><input type="text" name="email" id="email" placeholder="Valid email id"></td>
+				</tr>
+				<tr>
+					<th><p>Phone: </p></th>
+					<td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone number"></td>
+				</tr>
+				<tr>
+					<th><p>Gender: </p></th>
+					<td><input type="text" name="gender" id="gender" placeholder="gender"></td>
+				</tr>
+				<tr>
+					<th><p>Skills: </p></th>
+					<td><input type="text" name="skill" id="skill" placeholder="skills"></td>
+				</tr>
+
+				<tr id="btna">
+					<button id="btn" onclick="AddRow()">Submit</button>
+				</tr>
+			</tbody>
+		</table>
+		<table border="2" id="show">
+			<thead>
+				<tr>
+					<th>Student Name</th>
+					<th>LinkedIn</th>
+					<th>Email id </th>
+					<th>Phone number</th>
+					<th>Gender</th>
+					<th>Skills</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+	<div class = "vertical"></div>
+	<script src="scripts.js"></script>
+</body>
+</html>

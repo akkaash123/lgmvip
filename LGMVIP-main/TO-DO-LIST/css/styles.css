@@ -1,0 +1,128 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(#8367b1,#4c25b8);
+    background-repeat: no-repeat;
+    font-family:sans-serif ;
+    text-align: center;
+    background-size: auto;
+  }
+.heading{
+    font: 300 2ch/1.2 'Segoe UI';
+    font-weight: 600 ;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+fieldset
+{
+  background-color:#CCC;
+  max-width:500px;
+  padding:16px;	
+  margin: auto;
+  -moz-border-radius:8px;
+  border-radius:8px;
+  overflow-y: scroll;
+}
+.boundary{
+    border:1px solid black;
+}
+input[type="text"]{
+    width: 310px;
+    height: 40px;
+    outline: 0;
+    border: solid 3px;
+    font-size: 20px;
+    background: #fff;
+    color: #2f4f4f;
+    margin-top: 10px;
+  }
+#push{
+    position: relative;
+    bottom: 2px;
+    width: 50px;
+    height: 38px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+   
+}
+#push:hover {
+    opacity: 0.9;
+    }
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    margin: auto;
+    
+}
+input,
+button {
+    font: 400 20px "Lato", sans-serif;
+    font-size: 15px;
+  }
+  
+  button {
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    background-color: #0d75ec;
+    border: #fff;
+    color: #ffffff;
+    height: 30px;
+  }
+  
+  li {
+    height: 2.4rem;
+  }
+  
+  li::marker {
+    font-size: 1.2rem;
+    line-height: 1
+  }
+  
+  li * {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+  li p {
+    padding: 2px 4px 3.5px;
+    border-radius: 2px;
+  }
+  
+  [contenteditable] {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+ 
+  .hide {
+    display: none
+  }
+  p {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    margin-top: 30px;
+    color: #5c5c5c;
+    font-weight: 300;
+    }
+    ul {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    }
+    ul li {
+    margin-bottom: 10px;
+    color: #5c5c5c;
+    
+    }
